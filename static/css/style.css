@@ -1,0 +1,56 @@
+.outer-shadow {
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    box-shadow: var(--outer-shadow);
+}
+
+.inner-shadow {
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    box-shadow: var(--inner-shadow);
+}
+
+  /* Apply a background color */
+  body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Center the heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Add a custom font */
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+  h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Change the font color for headings */
+  h1, h2 {
+    color: #c5ec18;
+  }
+  
+  /* Add a border to the image */
+  img {
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    width: 85%;
+    border: 2px solid #c7de15;
+    border-radius: 10px;
+  }
+  
+  /* Add a box shadow to the table */
+  table {
+    box-shadow: 5px 5px 10px #ddd;
+  }
+  
+  /* Change the font color for table cells */
+  td {
+    color: #333;
+  }
+  
+  /* Add a hover effect to the table rows */
+  tr:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+  }
