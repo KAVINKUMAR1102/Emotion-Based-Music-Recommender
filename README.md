@@ -50,3 +50,4 @@ The entire project works perfectly fine. Live detection gives good frame rates d
 - train.py is the script for image processing and training the model.
 
 
+
